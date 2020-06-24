@@ -50,8 +50,6 @@ class Game:
         self.winner = -1
 
     def is_over(self) -> bool:
-        over = False
-
         if self.map[0, 0] == self.map[1, 0] == self.map[2, 0] != EMPTY_CELL:
             over = True
             self.winner = self.map[0, 0]
