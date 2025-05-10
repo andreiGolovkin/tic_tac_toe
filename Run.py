@@ -138,6 +138,6 @@ if __name__ == "__main__":
 
     print(game.map)
     if game.winner == -1:
-        print("Draw")
+        print("Draw!!!!!")
     else:
-        print("Player " + str(game.winner + 1) + " won!")
+        print("Player " + str(game.winner + 1) + " won!!!!!")
